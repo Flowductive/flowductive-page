@@ -1,0 +1,8 @@
+.card1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: -10;
+  background-color: #ff453a;
+}
