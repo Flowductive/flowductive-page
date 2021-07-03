@@ -5,4 +5,28 @@
   position: absolute;
   z-index: -10;
   background-color: #ff453a;
+  top: 33%;
+  left: 0%;
+}
+
+.card2 {
+  height: 175px;
+  width: 175px;
+  border-radius: 18px;
+  position: absolute;
+  z-index: -10;
+  background-color: #30d158;
+  top: 33%;
+  left: 90%;
+}
+
+.card3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: -10;
+  background-color: #0a84ff;
+  top: 66%;
+  left: 0%;
 }

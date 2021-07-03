@@ -1,0 +1,22 @@
+.mockup1 {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  z-index: -8;
+  top: 20%;
+  left: -200px;
+}
+
+.mockup2 {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  z-index: -8;
+  top: 45%;
+  left: 70%;
+}
+
+.mockup-img {
+  max-width: 100%;
+  height: auto;
+}
