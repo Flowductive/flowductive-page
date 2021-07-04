@@ -1,5 +1,6 @@
 window.addEventListener('load', function () {
   scrollRotate();
+  parallaxTranslate();
 })
 
 window.onscroll = function() {
@@ -14,4 +15,10 @@ var scrollEventHandler = function()
   }
 }
 
+var resizeEventHandler = function()
+{
+  parallaxTranslate();
+}
+
 window.addEventListener("scroll", scrollEventHandler, false);
+window.addEventListener("resize", resizeEventHandler, true);
