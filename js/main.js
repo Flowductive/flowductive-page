@@ -5,8 +5,6 @@ window.addEventListener('load', function () {
 window.onscroll = function() {
   scrollRotate();
   parallaxTranslate();
-
-  console.log('test');
 };
 
 var scrollEventHandler = function()

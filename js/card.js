@@ -5,16 +5,16 @@ function scrollRotate() {
   card3.style.transform = "translate(-50%, 0%) rotate3d(-1, 1, 0, " + cardRotation3() + "deg) rotate(-15deg)";
 }
 
-let speed = 4.0;
+let rotSpeed = 4.0;
 
 function cardRotation1() {
-  return 7.5 + speed * window.pageYOffset / 20.0;
+  return 7.5 + rotSpeed * window.pageYOffset / 20.0;
 }
 
 function cardRotation2() {
-  return 7.5 + speed * window.pageYOffset / 15.0;
+  return 7.5 + rotSpeed * window.pageYOffset / 15.0;
 }
 
 function cardRotation3() {
-  return 7.5 + speed * window.pageYOffset / 60.0;
+  return 7.5 + rotSpeed * window.pageYOffset / 60.0;
 }
