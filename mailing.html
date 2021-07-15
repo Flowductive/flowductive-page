@@ -72,6 +72,7 @@
     }
 
     #mce-EMAIL {
+      display: inline !important;
       width: 400px !important;
       background: #212529 !important;
       border: 1px solid #414549 !important;
@@ -79,7 +80,6 @@
       margin: 0px 12px !important;
       padding: 16px !important;
       color: white !important;
-      text-align: center !important;
     }
 
     #mc-embedded-subscribe {
@@ -108,8 +108,10 @@
     <form action="https://flowductive.us6.list-manage.com/subscribe/post?u=9bc71c6408539f2dd4476b9de&amp;id=31835b3ba2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
         <p class="display-5 fw-bold text-center" id="join-header">Join our Waitlist</p>
-        <div class="mc-field-group" style="text-align: center !important;">
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+        <div style="text-align: center !important;">
+          <div class="mc-field-group" style="text-align: center !important;">
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+          </div>
         </div>
         <div id="mce-responses" class="clear">
           <div class="response" id="mce-error-response" style="display:none"></div>
