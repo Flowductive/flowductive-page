@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
   transform-style: preserve-3d;
@@ -12,4 +13,14 @@ html, body {
 
 a {
   text-decoration: none;
+}
+
+.coming-soon {
+  border: 1px solid #ff9100;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 8pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff9100;
 }
